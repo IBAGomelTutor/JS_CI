@@ -1,23 +1,15 @@
 <?xml version="1.0"?>
-<testsuite name="PhantomJS 2.1.1 (Windows 7 0.0.0)" package="" timestamp="2016-07-26T13:31:38" id="0" hostname="iba14dae993d462" tests="5" errors="0" failures="2" time="0.004">
+<testsuite name="PhantomJS 2.1.1 (Windows 7 0.0.0)" package="" timestamp="2016-07-26T13:56:49" id="0" hostname="iba14dae993d462" tests="7" errors="0" failures="0" time="0.002">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
   </properties>
-  <testcase name="isEven() isEven(50) should be true" time="0.003" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).isEven()"/>
-  <testcase name="isEven() isEven(75) should be false " time="0.001" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).isEven()">
-    <failure type="">Expected true to equal false.
-test/test.js:8:29
-loaded@http://localhost:9876/context.js:151:17
-</failure>
-  </testcase>
-  <testcase name="isEven() isEven(-1) should be false " time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).isEven()">
-    <failure type="">Expected true to equal false.
-test/test.js:12:29
-loaded@http://localhost:9876/context.js:151:17
-</failure>
-  </testcase>
+  <testcase name="isEven() isEven(50) should be true" time="0.002" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).isEven()"/>
+  <testcase name="isEven() isEven(75) should be false " time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).isEven()"/>
+  <testcase name="isEven() isEven(-1) should be false " time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).isEven()"/>
   <testcase name="isEven() isEven(2) should be true " time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).isEven()"/>
   <testcase name="isEven() isEven(0) should be true " time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).isEven()"/>
+  <testcase name="min() min(0, 10) should return 0" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).min()"/>
+  <testcase name="min() min(0, -10) should return -10 " time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0_0).min()"/>
   <system-out>
     <![CDATA[
 ]]>

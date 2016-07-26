@@ -10,8 +10,7 @@ module.exports = function (config) {
         colors:    false,
         autoWatch: false,
         reporters: ['progress', 'junit', 'coverage'],
-        preprocessors:    {
-            'src/*.js':   ['coverage']
+        preprocessors:    { 
         },
         browsers:  ['PhantomJS'],
         junitReporter: {
