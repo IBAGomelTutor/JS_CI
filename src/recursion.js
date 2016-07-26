@@ -3,9 +3,9 @@
 function isEven(n) {
 
 	if (n === 0)
-		return true;
+		return true; 
 	else if (n == 1)
-		return false;
+		return true; 
 	else if (n < 0)
 		return isEven(-n);
 	else
